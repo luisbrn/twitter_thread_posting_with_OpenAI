@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thread Preview</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Preview Your Thread</h1>
+        <div class="thread-preview">
+            {{ thread_content }}
+        </div>
+        <div class="buttons">
+            <button onclick="history.back()">Edit</button>
+            <button id="post-button">Post to Twitter</button>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
